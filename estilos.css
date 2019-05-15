@@ -1,0 +1,388 @@
+
+/*=====================================================================
+=                  Fondo de pantalla (Mayo 07 2019) HMM               =
+=====================================================================*/
+body {
+    background: #88c2fa;
+}
+.fondo {
+    opacity: .5;
+    position: absolute;
+    display: flex;
+    z-index: -10;
+    width: 35%;
+    margin-left: 31%; 
+    box-shadow: 9px 9px 100px 9px #6bace9;
+     }
+
+/*=========  End of Fondo de pantalla (Mayo 07 2019) HMM   =====*=====/
+
+
+
+/*=====================================================================
+=                  Contenedor grupal de Robots  (Mayo 07 2019) HMM           =
+=====================================================================*/
+#contenedor-de-robots {
+    height: 100%;
+    width: 100%;
+    margin: 0px 0px 0px 370px;
+    display: flex;
+}
+
+/*====  End of Contenedor grupal de Robots (Mayo 07 2019) HMM  ====*====/
+
+
+
+/*====================================================================
+=           Contenedor individual de Robot (Mayo 07 2019) HMM             =
+====================================================================*/
+
+.contenedor {
+    height: 400px;
+    width: 200px;
+    z-index: -4;
+    }
+
+
+#contenedor-keigo {
+   margin: 50px 50px;
+   margin-top: 300px;
+   box-shadow: 2px 3px 103px 6px rgba(56, 134, 197, 0);
+   border-radius: 5px;
+    }
+
+#contenedor-kimotto {
+    margin: 50px 50px;
+    margin-top: 300px;
+    box-shadow: 2px 3px 103px 6px rgba(56, 134, 197, 0);
+    border-radius: 5px;
+    }
+
+/*====  End of Contenedor individual Robot (Mayo 07 2019) HMM   ====*====/
+
+
+
+/*=====================================================================
+=            Cabezas Robots (Mayo 07 2019) HMM             =
+=====================================================================*/
+
+#cabeza-keigo {
+    width: 100px;
+    height: 100px;
+    background: white;
+    margin: auto;
+    border-radius: 50px;
+    margin-top: 1px;
+    border: groove;
+}
+
+#cabeza-kimotto {
+    width: 200px;
+    height: 100px;
+    background: yellow;
+    margin: auto;
+    border-radius: 40px;
+    margin-top: 80px;
+    border: solid rgba(221, 164, 6, 0.521) 10px;
+}
+
+/*========  End of Cabezas Robot (Mayo 07 2019) HMM   ======*======/
+
+
+/*=====================================================================
+          =            Ojos (Mayo 07 2019) HMM             =
+=====================================================================*/
+
+.ojos-keigo {
+    width: 15px;
+    height: 20px;
+    background: rgba(6, 12, 6, 0.726);
+    margin-top: 20px;
+    border-radius: 50px;
+    border: groove;
+}
+
+.ojos-kimotto {
+    width: 25px;
+    height: 15px;
+    background: black;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: solid rgba(221, 164, 6, 0.521) 5px;
+}
+
+#ojo-der {
+    float: right;
+    padding: 10px 0px 0px 10px;
+}
+
+#ojo-izq {
+    float: left;
+    padding: 10px 0px 0px 10px;
+}
+
+/*========  End of  ojos (Mayo 07 2019) HMM   ======*======/
+
+
+/*===================================================================
+          =            Nariz (Mayo 07 2019) HMM             =
+===================================================================*/
+
+/* #nariz-kimotto {
+
+} */
+
+#nariz-keigo {
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50px;
+    border: groove;
+    margin-top: 52px;
+    margin-right: 20px;
+    margin-left: 42px;
+}
+
+/*========  End of nariz (Mayo 07 2019) HMM   ========*========/
+
+
+/*===================================================================
+          =            Boca (Mayo 07 2019) HMM             =
+====================================================================*/
+
+#boca-kimotto {
+    width: 18px;
+    height: 18px;
+    background: brown;
+    border-radius: 5px;
+    margin-top: 67px;
+    margin-left: 100px;
+}
+
+#boca-keigo {
+    width: 20px;
+    height: 10px;
+    background: red;
+    border-radius: 5px;
+    margin-top: 9px;
+    margin-left: 38px;
+}
+
+/*==========  End of boca (Mayo 07 2019) HMM   ========*========/
+
+
+/*====================================================================
+=            Cuello Robot-misuki (Mayo 07 2019) HMM             =
+====================================================================*/
+
+#cuello {
+    width: 15px;
+    height: 20px;
+    background: rgb(80, 75, 75);
+    margin: auto;
+}
+
+/*========== End of Cuello (Mayo 07 2019) HMM   =======*=======/
+
+
+/*====================================================================
+     = Cuerpo, contenedor de brazos y manos  (Mayo 07 2019) HMM =
+=====================================================================*/
+
+
+#cuerpo-keigo {
+    width: 120px;
+    height: 120px;
+    background: white;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: -15px;
+    z-index: -1;
+    border: groove;
+}
+
+#cuerpo-kimotto {
+    width: 190px;
+    height: 120px;
+    background: yellow;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: -15px;
+    z-index: -1;
+    border: solid rgba(221, 164, 6, 0.521) 10px;
+}
+
+#nombre-keigo{
+
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    margin-left: 42px;
+    margin-top: 50px;
+    }
+
+#nombre-kimotto {
+
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    margin-left: 82px;
+    margin-top: 80px;
+    }
+
+/* brazos */
+
+.brazos-keigo {
+    width: 30px;
+    height: 100px;
+    background: white;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 15px;
+    z-index: 2;
+    border: groove;
+}
+
+.brazos-kimotto {
+    width: 100px;
+    height: 30px;
+    background: yellow;
+    margin: auto;
+    margin-top: 108px;
+    border-radius: 15px;
+    z-index: 1  ;
+    border: solid rgba(221, 164, 6, 0.521) 10px;
+}
+
+#brazo-der {
+    position: absolute;
+    margin-left: 108px;
+}
+
+#brazo-izq {
+    position: absolute;
+    margin-left: -22px;
+}
+
+.div-brazos-top {
+    margin-top: -96px;
+}
+
+/* 
+manos */
+
+.manos-keigo {
+    width: 25px;
+    height: 25px;
+    background: rgb(80, 75, 75);
+    margin-top: 210px;
+    border-radius: 50%;
+    z-index: 3;
+    border: groove;
+}
+
+#mano-der {
+    position: absolute;
+    margin-left: 110px;
+}
+
+#mano-izq {
+    position: absolute;
+    margin-left: -19px;
+}
+
+/*=== End of Cuerpo, contenedor de brazos y manos (Mayo 07 2019) HMM ===*===/
+
+
+/*=============================================================================
+      ==== Piernas, contenedor de rodillas y pies (Mayo 07 2019) HMM ====
+=============================================================================*/
+
+.piernas-keigo {
+    width: 30px;
+    height: 147px;
+    background: white;
+    margin: auto;
+    margin-top: -3px;
+    border-radius: 15px;
+    border: groove;
+    z-index: 2;
+}
+
+#pierna-der {
+    position: absolute;
+    margin-left: 125px;
+}
+
+#pierna-izq {
+    position: absolute;
+    margin-left: 49px;
+}
+
+/* rodillas */
+
+.rodillas-keigo {
+    width: 35px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.397);
+    margin-top: 57px;
+    border-radius: 50%;
+    border: groove;
+    z-index: 2;
+}
+
+#rodilla-der {
+    position: absolute;
+    margin-left: 123px;
+}
+
+#rodilla-izq {
+    position: absolute;
+    margin-left: 46px;
+}
+
+
+
+#pies-misuki {
+
+}
+
+.pies-keigo {
+    width: 37px;
+    height: 14px;
+    background: gray;
+    margin-top: 139px;
+    border-radius: 50%;
+    border: groove;
+    z-index: 1;
+}
+
+.pies-kimotto {
+    width: 30px;
+    height: 40px;
+    background: rgb(10, 10, 9);
+    margin-top: 0px;
+    border-radius: 30%;
+    border: dotted 4px rgba(177, 161, 20, 0.37);
+    z-index: 2;
+}
+
+#pie-der {
+    position: absolute;
+    margin-left: 123px;
+}
+
+#pie-izq {
+    position: absolute;
+    margin-left: 46px;
+}
+
+/*=== End of Piernas, contenedor de rodillas y pies (Mayo 07 2019) HMM ===*===*/
+
+
+.sombra {
+    box-shadow: 2px 3px 8px -1px rgb(240,240,240);
+}   
+
+
